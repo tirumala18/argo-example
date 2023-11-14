@@ -1,0 +1,3 @@
+kustomize:
+  images:
+  - docker.io/tirumala18/nginx:1.0
