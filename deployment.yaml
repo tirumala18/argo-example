@@ -13,8 +13,11 @@ spec:
       labels:
         app: nginx
     spec:
+      imagePullSecrets:
+        - name: registry-secret
       containers:
         - name: nginx
           image: docker.io/tirumala18/nginx:latest
           ports:
             - containerPort: 80  
+    
