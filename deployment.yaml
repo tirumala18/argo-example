@@ -19,4 +19,8 @@ spec:
           image: docker.io/tirumala18/nginx:latest
           ports:
             - containerPort: 80  
+        - name: alpine-container
+          image: alpine:latest
+          command: ["/bin/sh"]
+          args: ["-c", "while true; do echo Hello from Alpine; sleep 10; done"]
     
