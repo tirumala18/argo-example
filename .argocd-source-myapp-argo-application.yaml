@@ -1,3 +1,4 @@
 kustomize:
   images:
   - docker.io/tirumala18/nginx:2.0
+  - docker.io/tirumala18/alpine:2.0
