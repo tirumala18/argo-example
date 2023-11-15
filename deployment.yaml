@@ -20,7 +20,7 @@ spec:
           ports:
             - containerPort: 80  
         - name: alpine-container
-          image: alpine:latest
+          image: docker.io/tirumala18/alpine:latest
           command: ["/bin/sh"]
           args: ["-c", "while true; do echo Hello from Alpine; sleep 10; done"]
     
